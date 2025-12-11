@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  /* Use rem consistently! (1rem = 16px usually) */  /* ≈480px */
+  --breakpoint-mobile: 20rem; /* ≈320px, or whatever you need */
+  --breakpoint-3xl: 120rem;   /* ≈1920px */
+    --breakpoint-3xl: 160rem;   /* ≈2560px 4k*/
+
+  /* Override defaults if needed (examples) */
+  --breakpoint-tablet: 48rem;     /* 768px tablet */
+  --breakpoint-lg: 64rem;     /* 1024px Laptop*/
+  --breakpoint-xl: 80rem;     /* 1280px */
+  --breakpoint-2xl: 96rem;    /* 1536px Laptop */
+}
